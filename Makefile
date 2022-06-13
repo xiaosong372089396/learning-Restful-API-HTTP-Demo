@@ -1,6 +1,6 @@
-PROJECT_NAME=restful-api-demo-http
+PROJECT_NAME=restful-api-http-demo
 MAIN_FILE=main.go
-PKG := "gitee.com/go-course/restful-api-demo/$(PROJECT_NAME)"
+PKG := "xiaosong372089396/learning-Restful-API-HTTP-Demo/$(PROJECT_NAME)"
 PKG_LIST := $(shell go list ${PKG}/... | grep -v /vendor/)
 GO_FILES := $(shell find . -name '*.go' | grep -v /vendor/ | grep -v _test.go)
 
