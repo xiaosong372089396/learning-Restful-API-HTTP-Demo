@@ -1,0 +1,18 @@
+[app]
+name = "restful-api"
+host = "0.0.0.0"
+port = "8050"
+key  = "this is your app key"
+
+[mysql]
+host = "192.168.1.7"
+port = "3306"
+username = "root"
+password = "mysql"
+database = "restful_api"
+
+[log]
+level = "debug"
+dir = "logs"
+format = "text"
+to = "stdout"
