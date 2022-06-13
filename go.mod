@@ -3,7 +3,7 @@ module xiaosong372089396/learning-Restful-API-HTTP-Demo
 go 1.17
 
 require (
-	gitee.com/go-course/restful-api-demo v0.0.0-20220122012433-10437d4be0c5
+	xiaosong372089396/learning-Restful-API-HTTP-Demo v0.0.0-20220122012433-10437d4be0c5
 	github.com/BurntSushi/toml v1.1.0
 	github.com/caarlos0/env/v6 v6.9.3
 	github.com/go-playground/validator/v10 v10.11.0
